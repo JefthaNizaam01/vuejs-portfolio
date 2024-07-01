@@ -1,5 +1,8 @@
 <template>
-  <div class="container">
+  <div class="container-fluid">
+    <section >
+<BubblesAnimation />
+   
   <section class="row" id="home">
       <LandingSection />
   </section>
@@ -17,19 +20,20 @@
   <section class="row" id="testimonials"></section>
   
   <section class="row" id="reachMe"></section>
-  
+</section>
   </div>
 </template>
 
 <script>
-import LandingSection from '@/components/LandingSection.vue'
+import BubblesAnimation from '@/components/BubblesAnimation.vue'
+
 
 export default {
-    name: 'HomeView',
-    components: {
-    
+  name: 'HomeView',
+  components: {
+    BubblesAnimation
+  
    
-     
-    }
   }
-  </script>
+}
+</script>
