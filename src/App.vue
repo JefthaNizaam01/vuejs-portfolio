@@ -11,11 +11,13 @@
 <script>
 import BubblesAnimation from "@/components/BubblesAnimation.vue";
 import NavBar from "@/components/NavBar.vue";
+import LandingSection from "@/components/LandingSection.vue";
 import Footer from "@/components/Footer.vue";
 export default {
   components: {
     BubblesAnimation,
     NavBar,
+    LandingSection,
     Footer,
   },
 };
