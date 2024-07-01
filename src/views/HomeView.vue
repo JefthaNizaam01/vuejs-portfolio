@@ -11,8 +11,8 @@
      <AboutSection />
   </section>
   
-  <section class="row" id="resume">
-     <ResumeSection />
+  <section class="row" id="education">
+     <EducationSection />
   </section>
   
   <section class="row" id="project"></section>
@@ -28,6 +28,7 @@
 import BubblesAnimation from '@/components/BubblesAnimation.vue'
 import LandingSection from '@/components/LandingSection.vue'
 import AboutSection from '@/components/AboutSection.vue'
+import EducationSection from '@/components/EducationSection.vue'
 
 
 export default {
@@ -35,7 +36,8 @@ export default {
   components: {
     BubblesAnimation,
     LandingSection,
-    AboutSection
+    AboutSection,
+    EducationSection
   
    
   }
