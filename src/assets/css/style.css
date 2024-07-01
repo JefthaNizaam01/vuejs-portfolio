@@ -12,3 +12,151 @@ body {
 :root {
     --nav-color: red;
   }
+  @property --top-left {
+    syntax: "percentage";
+    inherits: false;
+    initial-value: 50%
+}
+@property --top-right {
+    syntax: "percentage";
+    inherits: false;
+    initial-value: 50%
+}
+@property --bottom-left {
+    syntax: "percentage";
+    inherits: false;
+    initial-value: 0%
+}
+@property --bottom-right {
+    syntax: "percentage";
+    inherits: false;
+    initial-value: 0%
+}
+/* Navbar & footer */
+:is(.navbar, .offcanvas, footer) {
+    background-color: black;
+}
+:is(.nav-link) {
+    color: white;
+}
+img[alt="logo"] {
+    width: 7rem;
+    aspect-ratio: 1/1;
+    object-position: left;
+}
+.nav-link {
+    color:var(--nav-color);
+    font-family: Helvetica;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: .5s;
+    overflow:hidden;
+    padding:  1.563rem 1.875rem;
+}
+/* nav-link hover red colour */
+.nav-link:hover {
+    background-color: var(--nav-color);
+    border-radius: 20%;
+    color:black;
+    box-shadow: 0 0 5px --nav-color,0 0 25px --nav-color,0 0 50px red;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, black);
+}
+.navbar-toggler{ 
+    background-color: white;
+    
+}
+.navbar-brand {
+    margin-top: -30px; 
+}
+img[alt='profile'] {
+    border-radius: 20%;
+    width: 28vw;
+    margin-top: 6.25rem;
+    box-shadow: 0 0 25px red;
+    cursor: pointer;
+}
+img[alt='profile'] img:hover {
+    transform: scale(1);
+    filter: drop-shadow(0 0 25px red);
+}
+/* Heading's glowing */
+.name, .developer, .lead, #Ab, #Ed, #skill, #wrk, #proj, #testimonial, #reach {
+    color:white;
+    text-shadow:
+    0 0 5px red,
+    0 0 10px red,
+    0 0 20px red,
+    0 0 40px red,
+    0 0 80px red,
+    0 0 90px red,
+    0 0 100px red,
+    0 0 150px red;
+}
+:is(#about, #resume, #skills, #projects, #testimonials, #reachme){
+    margin-block: 10rem; }
+
+.developer {
+    margin-top:50px;
+}
+
+/* Bubble background */
+.bubbles {
+    position: relative;
+    display: flex;
+    z-index: -100;
+}
+.bubbles span
+{
+    position: relative;
+    width: 1.875rem;
+    height: 1.875rem;
+    background: #4FC3DC;
+    border-radius: 50%;
+    margin: 0 0.25rem;
+    box-shadow: 0 0 0 0.625rem #4fc3dc44, 0 0 3.125rem #4FC3DC, 0 0 6.25rem #4FC3DC;
+    animation: animate 15s linear infinite;
+    animation-duration:calc(125s / var(--i))
+}
+.bubbles span:nth-child(even)
+{
+    background:red;
+    box-shadow: 0 0 0 0.625rem red, 0 0 3.125rem red, 0 0 6.25rem red
+}
+@keyframes animate{
+    0%
+    {
+        transform:translateY(100vh) scale(0);
+    }
+    100% {
+        transform:translateY(-10vh) scale(1);
+    }
+}
+/* bubbles responsive for mobile */
+@media screen and (max-width: 768px) {
+    .bubbles {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .bubbles span {
+        margin: 0.5rem;
+    }
+    .bubbles span:nth-child(even) {
+        background: #4FC3DC;
+        box-shadow: 0 0 0 0.625rem #4fc3dc44, 0 0 3.125rem #4FC3DC, 0 0 6.25rem #4FC3DC;
+    }
+}
+@media screen and (max-width: 480px) {
+    .bubbles {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .bubbles span {
+        margin: 0.5rem;
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+    .bubbles span:nth-child(even) {
+        background: #4FC3DC;
+        box-shadow: 0 0 0 0.3125rem #4fc3dc44, 0 0 1.5625rem #4FC3DC, 0 0 3.125rem #4FC3DC;
+    }
+}
