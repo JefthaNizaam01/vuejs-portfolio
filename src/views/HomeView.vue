@@ -27,13 +27,15 @@
 <script>
 import BubblesAnimation from '@/components/BubblesAnimation.vue'
 import LandingSection from '@/components/LandingSection.vue'
+import AboutSection from '@/components/AboutSection.vue'
 
 
 export default {
   name: 'HomeView',
   components: {
     BubblesAnimation,
-    LandingSection
+    LandingSection,
+    AboutSection
   
    
   }
