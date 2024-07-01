@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg mt-0 sticky-top">
+    <nav class="navbar navbar-expand-lg mt-0 fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img class="img" src="https://jefthanizaam01.github.io/favoriteimages/images/NJJ.png" alt="logo" loading="lazy"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
