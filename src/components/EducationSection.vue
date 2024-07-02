@@ -1,10 +1,10 @@
 <template>
     <section class="container" id="education">
       <div class="row">
-        <h2 class="display-2 text-center" id="Ed">Education</h2>
+        <h2 class="display-2 text-center" id="Ed" data-aos="fade-up">Education</h2>
         <div class="col-xl-12">
           <ul class="timeline-list">
-            <li>
+            <li data-aos="fade-left">
               <div class="timeline_content">
                 <span>April 2024 - Present</span>
                 <h4>Student at Life Choices Academy</h4>
@@ -13,7 +13,7 @@
                 </p>
               </div>
             </li>
-            <li>
+            <li data-aos="fade-right">
               <div class="timeline_content">
                 <span>2019-2023</span>
                 <h4>University of the Western Cape</h4>
@@ -22,7 +22,7 @@
                 </p>
               </div>
             </li>
-            <li>
+            <li data-aos="fade-left">
               <div class="timeline_content">
                 <span>November 2022 - December 2022</span>
                 <h4>Internship</h4>
@@ -31,7 +31,7 @@
                 </p>
               </div>
             </li>
-            <li>
+            <li data-aos="fade-right">
               <div class="timeline_content">
                 <span>2013 - 2018</span>
                 <h4>High School</h4>
@@ -45,14 +45,11 @@
       </div>
     </section>
   </template>
-  
   <script>
   export default {
     name: 'EducationSection',
   };
   </script>
-  
   <style>
 
   </style>
-  
