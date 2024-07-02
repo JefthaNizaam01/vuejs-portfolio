@@ -164,7 +164,7 @@ img[alt='profile'] img:hover {
 }
 
 /* About Section */
-#about {
+#aboutt {
     border: 4px solid red;
    box-shadow:0 0 5px red,
    0 0 10px red,
@@ -172,7 +172,7 @@ img[alt='profile'] img:hover {
     border-radius: 1%;
     padding: 20px;
     margin: 20px auto;
-    max-width: 100%;
+    max-width: 80%;
 }
 .cardAbout {
     background-color: black;
@@ -182,95 +182,182 @@ img[alt='profile'] img:hover {
     color: white;
 }
 /* Education Section */
-ul.timeline-list {
-    position: relative;
-    margin: 0;
-    padding: 0;
-}
-ul.timeline-list:before {
-    position: absolute;
-    content: "";
-    width: 2px;
-    height: 100%;
-    background-color: #f2f2f2;
-    left: 50%;
-    top: 0;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-}
-ul.timeline-list li {
-    position: relative;
-    clear: both;
-    display: table;
-}
-.timeline_content {
-    border: 2px solid #FF3636;
-    box-shadow:0 0 5px red,
- 0 0 10px red,
- 0 0 40px red;
-    background-color:#fff;
-}
-ul.timeline-list li .timeline_content {
-    width: 45%;
-    color: #333;
-    padding: 30px;
-    float: left;
-    text-align: right;
-}
-ul.timeline-list li:nth-child(2n) .timeline_content {
-    float: right;
-    text-align: left;
-}
-.timeline_content h4 {
-    font-size: 1.375rem;
-    font-weight: 600;
-    margin: 10px 0;
-}
-ul.timeline-list li:before {
-    position: absolute;
-    content: "";
-    width: 1.563rem;
-    height: 1.563rem;
-    background-color: #FF3636;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-    border-radius: 50%;
-}
-.timeline_content span {
-    font-size: 18px;
-    font-weight: 500;
-    font-family: poppins;
-    color: #FF3636;
-}
-
+  ul.timeline-list {
+      position: relative;
+      margin: 0;
+      padding: 0;
+  }
+  ul.timeline-list:before {
+      position: absolute;
+      content: "";
+      width: 2px;
+      height: 100%;
+      background-color: #f2f2f2;
+      left: 50%;
+      top: 0;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
+  }
+  ul.timeline-list li {
+      position: relative;
+      clear: both;
+      display: table;
+  }
+  .timeline_content {
+      border: 2px solid #FF3636;
+      box-shadow:0 0 5px red,
+   0 0 10px red,
+   0 0 40px red;
+      background-color:#fff;
+  }
+  ul.timeline-list li .timeline_content {
+      width: 45%;
+      color: #333;
+      padding: 30px;
+      float: left;
+      text-align: right;
+  }
+  ul.timeline-list li:nth-child(2n) .timeline_content {
+      float: right;
+      text-align: left;
+  }
+  .timeline_content h4 {
+      font-size: 1.375rem;
+      font-weight: 600;
+      margin: 10px 0;
+  }
+  ul.timeline-list li:before {
+      position: absolute;
+      content: "";
+      width: 1.563rem;
+      height: 1.563rem;
+      background-color: #FF3636;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      border-radius: 50%;
+  }
+  .timeline_content span {
+      font-size: 18px;
+      font-weight: 500;
+      font-family: poppins;
+      color: #FF3636;
+  }
+  
 #skillglow {
-  box-shadow:0 0 5px red,
- 0 0 10px red,
- 0 0 40px red;
+    box-shadow:0 0 5px red,
+   0 0 10px red,
+   0 0 40px red;
 }
 
 .work {
-  border: 2px solid #FF3636;
-  padding: 10px;
-    box-shadow:0 0 5px red,
- 0 0 10px red,
- 0 0 40px red;
-    background-color:#fff;
+    border: 2px solid #FF3636;
+    padding: 10px;
+      box-shadow:0 0 5px red,
+   0 0 10px red,
+   0 0 40px red;
+      background-color:#fff;
 }
 
 
 .card-img-top {
-  object-fit: cover;
-  height: 28.125rem; 
-}
+    object-fit: cover;
+    height: 28.125rem; 
+  }
+  
+  #shadow {
+    box-shadow: 0 0 10px white, 0 0 20px white, 0 0 50px white
+  }
 
-#shadow {
-  box-shadow: 0 0 10px white, 0 0 20px white, 0 0 50px white
-}
   
  .testimg {
     width: 18.75rem;
     
  }
+ #testimonials {
+    border: 3px solid #ccc; 
+    padding: 10px;
+    
+    box-shadow: 0 0 10px red,0 0 20px red, 0 0 50px red 
+  }
+  .carousel-content {
+    color: white;
+  }
+  .carousel-content h3 {
+    font-weight: bold;  
+  }
+  .carousel-content p {
+    font-size: 1.125rem;
+  }
+ #robin {
+    width:25rem;
+    height: 25rem;
+  }
+
+  #formz {
+ background: white;
+ box-shadow: 0 0 20px white;
+ width: 62.5rem;
+ position: sticky;
+ left: 16rem;
+ 
+ 
+  }
+  #sub {
+text-shadow: 0 0 15px white;
+
+  }
+
+  section{
+    scroll-margin-block: 8rem;
+}
+  
+.form-control, .input-group-text {
+    border-color: black;
+}
+/* Adjusting the footer so that it fits */
+#low {
+    margin-block: 2rem;
+    margin-top: 2rem; 
+    margin-bottom: 0; 
+    padding-top: 1rem; 
+    padding-bottom: 1rem; 
+    background: white;
+
+ 
+}
+/* Footer content like name and year */
+#lowcontent {
+font-size: 1.313rem;
+
+}
+/* ScrollBar */
+::-webkit-scrollbar {
+    width: 0.938rem;
+}
+::-webkit-scrollbar-track {
+    background: #d1e5ff;
+}
+/* Scrollbar Colour */
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#ff512f , #dd2476);
+}
+.card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 0 20px rgba(0,0,0,0.1); 
+  }
+  .day {
+    color:red;
+    font-size: 1.125rem;
+    font-family: sans-serif;
+  }
+  .font {
+    font-family: "Open Sans", sans-serif;
+  }
+  #resbutton {
+    display: flex;
+    justify-content: center;
+    grid-template-columns: repeat(2, auto); 
+    gap: 10.25rem; 
+  }
