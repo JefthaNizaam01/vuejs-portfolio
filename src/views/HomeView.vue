@@ -35,6 +35,7 @@ import EducationSection from '@/components/EducationSection.vue'
 import SkillsSection from '@/components/SkillsSection.vue'
 import WorkExperienceSection from '@/components/WorkExperienceSection.vue'
 import ProjectsSection from '@/components/ProjectsSection.vue'
+import TestimonialSection from '@/components/TestimonialSection.vue'
 
 
 export default {
@@ -46,7 +47,8 @@ export default {
     EducationSection,
     SkillsSection,
     WorkExperienceSection,
-    ProjectsSection
+    ProjectsSection,
+    TestimonialSection
   }
 }
 </script>

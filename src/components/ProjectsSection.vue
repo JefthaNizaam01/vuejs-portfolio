@@ -83,7 +83,7 @@ export default {
 <style scoped>
 .card {
     margin-left: 40px; 
-    margin-bottom: 40px;
+    margin-bottom: 40px;   
 }
 .card-body {
     padding: 1.25rem; 
