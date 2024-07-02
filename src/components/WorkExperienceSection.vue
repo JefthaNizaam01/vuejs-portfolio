@@ -35,9 +35,7 @@
         font-family: 'Roboto', sans-serif;
     }
 
-    #experience {
-        padding: 60px 0;
-    }
+    
 
    
     h4 {
