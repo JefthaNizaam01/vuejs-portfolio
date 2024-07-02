@@ -23,7 +23,9 @@
       <section class="row" id="testimonialss">
         <TestimonialSection />
       </section>
-      <section class="row" id="reachMe"></section>
+      <section class="row" id="reachMe">
+        <ReachMeSection />
+      </section>
     </div>
   </div>
 </template>
@@ -36,6 +38,7 @@ import SkillsSection from '@/components/SkillsSection.vue'
 import WorkExperienceSection from '@/components/WorkExperienceSection.vue'
 import ProjectsSection from '@/components/ProjectsSection.vue'
 import TestimonialSection from '@/components/TestimonialSection.vue'
+import ReachMeSection from '@/components/ReachMeSection.vue'
 
 
 export default {
@@ -48,7 +51,8 @@ export default {
     SkillsSection,
     WorkExperienceSection,
     ProjectsSection,
-    TestimonialSection
+    TestimonialSection,
+    ReachMeSection
   }
 }
 </script>
