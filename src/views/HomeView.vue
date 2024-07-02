@@ -33,6 +33,9 @@ import LandingSection from '@/components/LandingSection.vue'
 import AboutSection from '@/components/AboutSection.vue'
 import EducationSection from '@/components/EducationSection.vue'
 import SkillsSection from '@/components/SkillsSection.vue'
+import WorkExperienceSection from '@/components/WorkExperienceSection.vue'
+
+
 export default {
   name: 'HomeView',
   components: {
@@ -40,7 +43,8 @@ export default {
     LandingSection,
     AboutSection,
     EducationSection,
-    SkillsSection
+    SkillsSection,
+    WorkExperienceSection
   }
 }
 </script>
