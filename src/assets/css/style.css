@@ -290,11 +290,7 @@ img[alt='profile'] img:hover {
   .carousel-content p {
     font-size: 1.125rem;
   }
- #robin {
-    width:25rem;
-    height: 25rem;
-  }
-
+ 
   #formz {
  background: white;
  box-shadow: 0 0 20px white;
