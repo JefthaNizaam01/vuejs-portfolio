@@ -13,7 +13,6 @@
             </div>
           </div>
           
-          <!-- Personal Information -->
           <div class="container text-center">
             <div class="row justify-content-center">
               <div class="col">

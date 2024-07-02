@@ -302,6 +302,8 @@ img[alt='profile'] img:hover {
   }
   #sub {
 text-shadow: 0 0 15px white;
+background-color: black;
+
 
   }
 
@@ -356,4 +358,14 @@ font-size: 1.313rem;
     justify-content: center;
     grid-template-columns: repeat(2, auto); 
     gap: 10.25rem; 
+  }
+
+  #live {
+    background-color: black;
+
+  }
+
+  #git {
+    margin-left: 20px;
+    background-color: black;
   }
