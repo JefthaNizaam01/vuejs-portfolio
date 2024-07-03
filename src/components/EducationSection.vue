@@ -1,7 +1,7 @@
 <template>
     <section class="container" id="education">
       <div class="row">
-        <h2 class="display-2 text-center" id="Ed" data-aos="fade-up">Education</h2>
+        <h2 class="display-2 text-center" id="Ed" data-aos="fade-down">Education</h2>
         <div class="col-xl-12">
           <ul class="timeline-list">
             <li data-aos="fade-left">
