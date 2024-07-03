@@ -65,7 +65,7 @@
                           <span class="input-group-text">
                             <i class="bi bi-telephone"></i>
                           </span>
-                          <input type="tel" class="form-control" id="phone" name="phone" value="">
+                          <input type="number" class="form-control" id="phone" name="phone" value="">
                         </div>
                       </div>
                       <div class="col-12">
