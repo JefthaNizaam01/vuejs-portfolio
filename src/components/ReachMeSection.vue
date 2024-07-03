@@ -25,7 +25,9 @@
                       <i class="bi bi-envelope"></i> Email: nizaam01.jeftha@gmail.com
                     </p>
                     <p>
-                      <i class="fa-sharp fa-solid fa-location-dot"></i> Address: Grassy Park, Cape Town
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="16" height="16">
+                        <path d="M168 0C75.1 0 0 75.1 0 168c0 87.5 129.7 214.5 152.2 235.2c8.5 7.9 21 7.9 29.5 0C222.3 382.5 352 255.5 352 168C352 75.1 276.9 0 184 0H168zM168 240c-39.8 0-72-32.2-72-72c0-39.8 32.2-72 72-72c39.8 0 72 32.2 72 72C240 207.8 207.8 240 168 240z"/>
+                      </svg> Address: Grassy Park, Cape Town
                     </p>
                     <p>
                         <a id="social-icon" href="https://www.linkedin.com/in/nizaam-jeftha-53684a2a8/" target="_blank" ><i class="bi bi-linkedin"></i></a>
