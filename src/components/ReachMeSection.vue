@@ -28,7 +28,7 @@
                       <i class="fa-sharp fa-solid fa-location-dot"></i> Address: Grassy Park, Cape Town
                     </p>
                     <p>
-                        <a id="social-icon" href="https://www.linkedin.com/yourprofile" target="_blank" ><i class="bi bi-linkedin"></i></a>
+                        <a id="social-icon" href="https://www.linkedin.com/in/nizaam-jeftha-53684a2a8/" target="_blank" ><i class="bi bi-linkedin"></i></a>
                         <a id="social-icon" href="https://github.com/JefthaNizaam01" target="_blank" ><i class="bi bi-github"></i></a>
                       </p>
                       
