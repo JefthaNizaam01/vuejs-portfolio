@@ -28,9 +28,10 @@
                       <i class="fa-sharp fa-solid fa-location-dot"></i> Address: Grassy Park, Cape Town
                     </p>
                     <p>
-                      <a href="https://www.linkedin.com/yourprofile" target="_blank"><i class="bi bi-linkedin"></i></a>
-                      <a href="https://github.com/yourusername" target="_blank"><i class="bi bi-github"></i></a>
-                    </p>
+                        <a id="social-icon" href="https://www.linkedin.com/yourprofile" target="_blank" ><i class="bi bi-linkedin"></i></a>
+                        <a id="social-icon" href="https://github.com/JefthaNizaam01" target="_blank" ><i class="bi bi-github"></i></a>
+                      </p>
+                      
                   </div>
                 </div>
               </div>
@@ -93,7 +94,15 @@
   }
   </script>
   
-  <style>
+  <style scoped>
+  #social-icon {
+    color: black;
+    font-size: 2em; 
+    margin: 0 10px; 
+  }
   
+  #social-icon:hover {
+    color: black; 
+  }
   </style>
   
