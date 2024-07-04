@@ -66,14 +66,14 @@ export default createStore({
   }
 },
 
-async fetchResume(context){
+async fetchEducation(context){
   try{
-      let {resume}= await (await axios.get(portfolioURL)).data
-  context.commit("setResume", resume)
+      let {education}= await (await axios.get(portfolioURL)).data
+  context.commit("setResume", education)
 } catch(e){
   Swal.fire({
     title: "Error",
-    text: "Failed to fetch the resume",
+    text: "Failed to fetch the education",
     icon: "error",
     timer: 2000
   })
