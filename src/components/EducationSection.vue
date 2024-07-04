@@ -50,6 +50,49 @@
     name: 'EducationSection',
   };
   </script>
-  <style>
-
+  <style scoped>
+  @media (max-width: 720px) {
+    #education {
+      padding: 15px;
+      margin: 15px auto;
+      max-width: 90%;
+      text-align: center; 
+    }
+  
+    .timeline_content {
+      font-size: 16px;
+      padding: 15px;
+      text-align: center; 
+    }
+  
+    .timeline_content span,
+    .timeline_content h4,
+    .timeline_content p {
+      text-align: center; 
+    }
+  }
+  
+  /* Responsive styles for 300px */
+  @media (max-width: 300px) {
+    #education {
+      padding: 10px;
+      margin: 10px auto;
+      max-width: 100%;
+      text-align: center; 
+    }
+  
+    .timeline_content {
+      font-size: 14px;
+      padding: 5px;
+      text-align: center; 
+      margin: 2px; 
+    }
+  
+    .timeline_content span,
+    .timeline_content h4,
+    .timeline_content p {
+      font-size: 12px;
+      text-align: center;
+    }
+  }
   </style>
