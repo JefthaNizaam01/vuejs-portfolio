@@ -34,5 +34,43 @@
     name: 'AboutSection',
   };
   </script>
-  <style>
+  <style scoped>
+  @media (max-width: 720px) {
+    #about {
+      padding: 15px;
+      margin: 15px auto;
+      max-width: 90%;
+    }
+  
+    .cardAbout {
+      font-size: 16px;
+      padding: 15px;
+    }
+  
+    .cardz-text {
+      text-align: justify;
+    }
+  }
+  
+  /* Responsive styles for 300px */
+  @media (max-width: 300px) {
+    #about {
+      padding: 10px;
+      margin: 10px auto;
+      max-width: 100%;
+      text-align: center; 
+      margin-left: 40px;
+    }
+  
+    .cardAbout {
+      font-size: 14px;
+      padding: 10px;
+      text-align:center;
+    }
+  
+    .cardz-text {
+      font-size: 12px;
+      text-align: center;
+    }
+  }
   </style>
