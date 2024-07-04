@@ -13,7 +13,7 @@
         <div class="col" data-aos="fade-left">
           <div class="name">
             <h1>Hi, It's <span>Nizaam Jeftha</span></h1>
-            <h3 class="developer">I'm <span>{{ title }}</span></h3>
+            <h3 id="dev" class="developer">I'm <span>{{ title }}</span></h3>
           </div>
         </div>
       </div>
@@ -58,14 +58,19 @@ onMounted(async () => {
 @media screen and (max-width: 300px) {
   .name h1 {
     font-size: 1.5rem; 
+    margin-left: 2.4rem;
+    margin-top: 2rem
   }
-  .developer h3 {
+  #dev{
   
-    font-size: 1rem; 
+    font-size: 1.5rem; 
+    margin-left: 2.4rem;
+    margin-top: 1rem
   }
   img[alt='profile'] {
-    width: 80%; 
+    width: 90%; 
     margin-top: 2rem; 
+    margin-left: 2rem;
   }
   .navbar {
     position: sticky;
@@ -73,18 +78,27 @@ onMounted(async () => {
     z-index: 1000; 
     background-color: red; 
   }
+  :is(main.container) {
+    width: 100dvw;
+  
+  }
   
 }
 
 @media screen and (min-width: 301px) and (max-width: 720px) {
   .name h1 {
-    font-size: 2rem; 
+    font-size: 1.7rem; 
+    margin-left: 1.7rem;
+    margin-top: 2rem
   }
-  .developer h3 {
-    font-size: 1.25rem; 
+  #dev{
+  
+    font-size: 1.7rem; 
+    margin-left: 1.7rem;
+    margin-top: 1rem
   }
   img[alt='profile'] {
-    width: 60%; 
+    width: 90%; 
     margin-top: 2rem; 
   }
   
