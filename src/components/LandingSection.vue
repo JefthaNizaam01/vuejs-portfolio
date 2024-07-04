@@ -54,6 +54,42 @@ onMounted(async () => {
 })
 </script>
 
-<style>
+<style scoped>
+@media screen and (max-width: 300px) {
+  .name h1 {
+    font-size: 1.5rem; 
+  }
+  .developer h3 {
+  
+    font-size: 1rem; 
+  }
+  img[alt='profile'] {
+    width: 80%; 
+    margin-top: 2rem; 
+  }
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+    background-color: red; 
+  }
+  
+}
 
+@media screen and (min-width: 301px) and (max-width: 720px) {
+  .name h1 {
+    font-size: 2rem; 
+  }
+  .developer h3 {
+    font-size: 1.25rem; 
+  }
+  img[alt='profile'] {
+    width: 60%; 
+    margin-top: 2rem; 
+  }
+  
+}
 </style>
+
+
+
