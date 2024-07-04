@@ -78,11 +78,10 @@
   }
 }
 
-@media only screen and (max-width: 300px) {
-  .card {
-    max-width: 100%;
-    margin-left: 80px;
-   
+@media screen and (max-width: 300px) {
+  .row-cols-md-3 {
+    justify-content: center;
+    margin-left: 35px;
   }
 }
 </style>
