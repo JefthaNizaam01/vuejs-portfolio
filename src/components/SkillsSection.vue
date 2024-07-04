@@ -64,6 +64,25 @@
     }
 </script>
 
-<style>
- 
+<style scoped>
+@media only screen and (max-width: 720px) {
+  .row-cols-md-3 .col {
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .card {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .card {
+    max-width: 100%;
+    margin-left: 80px;
+   
+  }
+}
 </style>
