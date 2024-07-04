@@ -54,4 +54,15 @@
         font-size: 1rem;
         line-height: 1.6;
     }
+    @media screen and (max-width: 720px) {
+        .exp .col-lg-6 {
+          margin-bottom: 30px;
+        }
+      }
+      
+      @media screen and (max-width: 300px) {
+        .exp .col-lg-6 {
+          margin-bottom: 20px;
+        }
+      }
 </style>
