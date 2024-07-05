@@ -1,128 +1,133 @@
 import { createStore } from 'vuex'
 import axios from 'axios'
-import Swal from 'sweetalert2/dist/sweetalert2'
+// import Swal from 'sweetalert2/dist/sweetalert2'
 
-const portfolioURL = 'https://jefthanizaam01.github.io/EompData/data/'
+// const portfolioURL = 'https://jefthanizaam01.github.io/EompData/data/'
 
 export default createStore({
   state: {
-    jobTitle: null,
-    about: null,
-    resume: null, 
-    skills: null,
-    testimonials: null,
-    projects: null,
+    //state array
+    home: "",
+    about: "",
+    resume: [],
+    skills: [],
+    projects: [],
+    testimonials: [],
+    contact: ""
   },
   getters: {
   },
   mutations: {
-    setJobTitle(state, value) {
-      state.jobTitle = value
+    setHome(state , data){
+      state.home = data
     },
-    
-    setAbout(state, value) {
-      state.about = value
+    setAbout(state , about){
+      state.about = about
     },
-
-    setResume(state, value) {
-      state.resume = value
+    setResume(state , resume){
+      state.resume = resume
     },
-      setSkills(state, value) {
-        state.skills = value
-      },
-      setTestimonials(state, value) {
-        state.testimonials = value
-      },
-      setProjects(state, value) {
-        state.projects = value
-      }},
-
-  actions: { 
-     async fetchJobTitle(context){
-      try{
-          let {jobTitle}= await (await axios.get(portfolioURL)).data
-      context.commit("setJobTitle", jobTitle)
-    } catch(e){
-      Swal.fire({
-        title: "Error",
-        text: "Failed to fetch the job title",
-        icon: "error",
-        timer: 2000
-      })
+    setSkills(state , skills){
+      state.skills = skills
+    },
+    setProjects(state , projects ){
+      state.projects = projects
+    },
+    setTestimonials(state , testimonials){
+      state.testimonials = testimonials
+    },
+    setContact(state , contact){
+      state.contact = contact
     }
   },
-
-  async fetchAbout(context){
-    try{
-        let {about}= await (await axios.get(portfolioURL)).data
-    context.commit("setAbout", about)
-  } catch(e){
-    Swal.fire({
-      title: "Error",
-      text: "Failed to fetch the about",
-      icon: "error",
-      timer: 2000
-    })
-  }
-},
-
-async fetchEducation(context){
-  try{
-      let {education}= await (await axios.get(portfolioURL)).data
-  context.commit("setResume", education)
-} catch(e){
-  Swal.fire({
-    title: "Error",
-    text: "Failed to fetch the education",
-    icon: "error",
-    timer: 2000
-  })
-}
-},
-
-async fetchSkills(context){
-  try{
-      let {skills}= await (await axios.get(portfolioURL)).data
-  context.commit("setSkills", skills)
-} catch(e){
-  Swal.fire({
-    title: "Error",
-    text: "Failed to fetch the skills",
-    icon: "error",
-    timer: 2000
-  })
-}
-},
-
-async fetchTestimonials(context){
-  try{
-      let {testimonials}= await (await axios.get(portfolioURL)).data
-  context.commit("setTestimonials", testimonials)
-} catch(e){
-  Swal.fire({
-    title: "Error",
-    text: "Failed to fetch the testimonials",
-    icon: "error",
-    timer: 2000
-  })
-}
-},
-
-async fetchProjects(context){
-  try{
-      let {projects}= await (await axios.get(portfolioURL)).data
-  context.commit("setProjects", projects)
-} catch(e){
-  Swal.fire({
-    title: "Error",
-    text: "Failed to fetch the projects",
-    icon: "error",
-    timer: 2000
-  })
-}
-}
-  
- },
+  actions: {
+    getHome (context){
+      try {
+        axios.get('https://jefthanizaam01.github.io/EompData/data/')
+        .then (res => {
+          context.commit('setHome',res.data.home)
+        })
+      } catch (error) {
+        alert('cannot retrieve data',error)
+      }
+    },
+    getAbout (context){
+      try {
+        axios.get('https://jefthanizaam01.github.io/EompData/data/')
+        .then (res => {
+          context.commit('setAbout',res.data.about)
+        })
+      } catch (error) {
+        alert('cannot retrieve data',error)
+      }
+    },
+    getResume (context){
+      try {
+        axios.get('https://jefthanizaam01.github.io/EompData/data/')
+        .then (res => {
+          context.commit('setResume',res.data.resume)
+        })
+      } catch (error) {
+        alert('cannot retrieve data',error)
+      }
+    },
+    getSkills (context){
+      try {
+        axios.get('https://jefthanizaam01.github.io/EompData/data/')
+        .then (res => {
+          console.log(res.data.skills);
+          context.commit('setSkills',res.data.skills)
+        })
+      } catch (error) {
+        alert('cannot retrieve data',error)
+      }
+    },
+    getProjects (context){
+      try {
+        axios.get('https://jefthanizaam01.github.io/EompData/data/')
+        .then (res => {
+          context.commit('setProjects',res.data.projects)
+        })
+      } catch (error) {
+        alert('cannot retrieve data',error)
+      }
+    },
+    getTestimonials (context){
+      try {
+        axios.get('https://jefthanizaam01.github.io/EompData/data/')
+        .then (res => {
+          context.commit('setTestimonials',res.data.testimonials)
+        })
+      } catch (error) {
+        alert('cannot retrieve data',error)
+      }
+    },
+    getContact (context){
+      try {
+        axios.get('https://jefthanizaam01.github.io/EompData/data/')
+        .then (res => {
+          context.commit('setContact',res.data.contact)
+        })
+      } catch (error) {
+        alert('cannot retrieve data',error)
+      }
+    }
+  },
   modules: {
   }
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
