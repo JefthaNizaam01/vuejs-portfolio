@@ -48,7 +48,7 @@
     }
   
     .cardz-text {
-      text-align: justify;
+      text-align: left;
     }
   }
   
