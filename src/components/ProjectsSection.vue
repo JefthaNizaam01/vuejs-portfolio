@@ -16,12 +16,12 @@
                 </div>
                 <div class="col" data-aos="fade-up">
                     <div class="card">
-                        <img id="shadow" src="https://jefthanizaam01.github.io/favoriteimages/images/Art Store .png" class="card-img-top" alt="Art Store">
+                        <img id="shadow" src="https://jefthanizaam01.github.io/favoriteimages/images/cafe.png" class="card-img-top" alt="cafe">
                         <div class="card-body" loading="lazy">
-                            <h5 class="card-title">eCommerce Store</h5>
-                            <p class="card-text">Crafted with elegance and simplicity, where exceptional artworks from global artists await discovery by passionate art enthusiasts.</p>
-                            <a id="live" href="https://artistic-store.vercel.app/" class="btn btn-primary" target="_blank">Live Site</a>
-                            <a id="git" href="https://github.com/JefthaNizaam01/Artistic-Store" class="btn btn-primary" target="_blank">GitHub</a>
+                            <h5 class="card-title">Cafe Menu</h5>
+                            <p class="card-text">Creating an eye-catching café menu with CSS, combining simplicity and elegance for an appealing menu experience</p>
+                            <a id="live" href="https://nizaam-cafe--seven.vercel.app/" class="btn btn-primary" target="_blank">Live Site</a>
+                            <a id="git" href="https://github.com/JefthaNizaam01/Nizaam_Cafe" class="btn btn-primary" target="_blank">GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -46,7 +46,7 @@
                             <a id="git" href="https://github.com/JefthaNizaam01/TributePage" class="btn btn-primary" target="_blank">GitHub</a>
                         </div>
                     </div>
-                </div>
+                </div> 
                 <div class="col" data-aos="fade-up">
                     <div class="card">
                         <img id="shadow" src="https://jefthanizaam01.github.io/favoriteimages/images/calculator.png" class="card-img-top" alt="calculator" loading="lazy">
@@ -73,16 +73,20 @@
         </div>
     </section>
 </template>
+
 <script>
 export default {
+   
 }
 </script>
+
 <style scoped>
 .card {
-    margin-left: 40px;
-    margin-bottom: 40px;
+    margin-left: 40px; 
+    margin-bottom: 40px;   
 }
 .card-body {
-    padding: 1.25rem;
+    padding: 1.25rem; 
 }
+
 </style>
