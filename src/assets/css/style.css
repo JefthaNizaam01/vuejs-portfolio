@@ -9,6 +9,7 @@
 
 body {
     background-color: black;
+
 }
 :root {
     --nav-color: red;
@@ -341,6 +342,9 @@ font-size: 1.313rem;
 /* Scrollbar Colour */
 ::-webkit-scrollbar-thumb {
     background: linear-gradient(#ff512f , #dd2476);
+}
+::-webkit-scrollbar:horizontal {
+    display: none; 
 }
 .card:hover {
     transform: scale(1.05); 
