@@ -1,7 +1,7 @@
 <template>
     <footer class="container-fluid footer">
         <div class="row justify-content-center">
-            <p class="bottom text-dark">Nizaam's portfolio &copy; <span class="shadow">{{ currentYear }}</span></p>
+            <p class="bottom text-white">Nizaam's portfolio &copy; <span class="shadow">{{ currentYear }}</span></p>
         </div>
     </footer>
 </template>
@@ -19,7 +19,7 @@ export default {
 
 <style scoped>
 .footer {
-    background-color: white;
+    background-color: black;
     margin-top: 60px;
 }
 
@@ -30,7 +30,7 @@ margin-top: 10px;
 }
 
 .text-dark {
-    color: #000;
+    color: white;
 }
 
 .shadow {
