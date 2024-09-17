@@ -78,6 +78,13 @@ export default {
 }
 </script>
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body, .card-title, .card-text {
+    font-family: 'Inter', sans-serif;
+}
+
+
 .card {
     margin-left: 40px;
     margin-bottom: 40px;
