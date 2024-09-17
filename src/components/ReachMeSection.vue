@@ -71,8 +71,8 @@
                     </div>
                     <div class="col-12">
                       <div id="resbutton" class="d-grid">
-                        <button id="sub" class="btn btn-primary btn-lg" type="submit">Submit</button>
-                        <button id="sub" class="btn btn-primary btn-lg" type="reset">Clear</button>
+                        <button id="sub" class="btn btn-dark btn-lg" type="submit">Submit</button>
+                        <button id="sub" class="btn btn-dark btn-lg" type="reset">Clear</button>
                       </div>
                     </div>
                   </div>
