@@ -85,4 +85,32 @@ export default {
 .card-body {
     padding: 1.25rem;
 }
+@media (min-width: 768px) {
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+        margin-bottom: 30px;
+        height: 90%; 
+    }
+
+    .card-body {
+        flex-grow: 1; 
+        padding: 1.5rem;
+    }
+
+    .btn {
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    #live, #git {
+        margin: 5px;
+    }
+}
 </style>
