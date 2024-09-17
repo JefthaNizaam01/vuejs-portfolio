@@ -111,6 +111,7 @@ export default {
 
     #live, #git {
         margin: 5px;
+        
     }
 }
 </style>
