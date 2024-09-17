@@ -33,7 +33,7 @@
           </li>
           <li data-aos="fade-right">
             <div class="timeline_content">
-              <span>2013 - 2018</span>
+              <span>2014 - 2018</span>
               <h4>High School</h4>
               <p>
                 I went to Grassdale High School and while it was a major adjustment, each obstacle served as an opportunity for growth and self-discovery. High school provided me with a solid foundation upon which to build my future aspirations and pursue my dreams. As I reflect on my high school experience, I am grateful for the memories, lessons, and friendships which I have obtained along the way.
