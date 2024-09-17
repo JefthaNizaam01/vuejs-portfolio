@@ -51,6 +51,10 @@ export default {
 };
 </script>
 <style scoped>
+h2#Ed {
+  margin-bottom: 40px; 
+}
+
 @media (max-width: 720px) {
   #education {
     padding: 15px;
