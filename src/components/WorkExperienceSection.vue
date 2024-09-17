@@ -9,7 +9,7 @@
                 <span>March 2022 - August 2022</span>
                 <h4>Research Assistant</h4>
                 <h5>University of the Western Cape</h5>
-                <p>As a research assistant at the University of the Western Cape, I collaborated with faculty on biotechnology experiments, conducting literature reviews, data collection, and analysis. This role enhanced my analytical skills and provided valuable hands-on experience in academic research methodologies.
+                <p>As a research assistant at the University of the Western Cape, I collaborated with the faculty on biotechnology experiments, conducting literature reviews, data collection, and analysis. This role enhanced my analytical skills and provided valuable hands-on experience in academic research methodologies.
                 </p>
               </div>
             </li>
@@ -36,6 +36,12 @@
   </script>
   
   <style scoped>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+.timeline_content span,
+  .timeline_content h4,
+  .timeline_content p {
+  font-family: 'Inter', sans-serif;
+  }
   h2#wrk {
   margin-top: 150px;
   margin-bottom: 40px; 

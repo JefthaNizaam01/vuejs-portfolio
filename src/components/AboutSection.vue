@@ -6,7 +6,7 @@
       <div class="row">
         <div class="cardz cardAbout m-auto" data-aos="fade-up">
           <p class="cardz-text m-auto">
-            Hi there! I am Nizaam Jeftha, an enthusiastic developer who discovered my passion for coding during my second year of studying biotechnology at university. My fascination with how websites are created quickly shifted my focus to software development and I have been captivated by it ever since. When I'm not coding, you'll often find me outdoors, appreciating nature's beauty, whether it's hiking or enjoying a day at the beach. I also love connecting with others and working together to bring ideas to life from collaborating with fellow developers to just hanging out as friends. Building meaningful relationships is at the heart of what I do.
+            Hi there! I am Nizaam Jeftha, an enthusiastic developer who discovered my passion for coding during my second year of studying biotechnology at university. My fascination with how websites are created quickly shifted my focus to software development and I have been captivated by it ever since. When I'm not coding, you'll often find me outdoors, appreciating nature's beauty, whether it's hiking or enjoying a day at the beach. I also love connecting with others and working together to bring ideas to life, from collaborating with fellow developers to just hanging out as friends. Building meaningful relationships is at the heart of what I do.
           </p>
           <div class="aboutInfo col-md-12">
             <div class="myInfo mt-3" data-aos="fade-up">
@@ -118,6 +118,12 @@
   };
   </script>
   <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.cardz-text {
+  font-family: 'Inter', sans-serif;
+
+}
   @media (max-width: 720px) {
     #about {
       padding: 15px;

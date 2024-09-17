@@ -51,6 +51,13 @@ export default {
 };
 </script>
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+.timeline_content span,
+  .timeline_content h4,
+  .timeline_content p {
+  font-family: 'Inter', sans-serif;
+  }
+
 h2#Ed {
   margin-bottom: 40px; 
 }
