@@ -5,12 +5,12 @@
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col" data-aos="fade-up">
                     <div class="card">
-                        <img id="shadow" src="https://jefthanizaam01.github.io/favoriteimages/images/Keyboard4.0.png" class="card-img-top img-fluid" alt="keyboard" loading="lazy">
+                        <img id="shadow" src="https://jefthanizaam01.github.io/favoriteimages/images/fullstack1.png" class="card-img-top img-fluid" alt="keyboard" loading="lazy">
                         <div class="card-body">
-                            <h5 class="card-title">Keyboard</h5>
-                            <p class="card-text">A sharp and visually appealing virtual keyboard interface designed for web interaction for day to day use.</p>
-                            <a id="live" href="https://keyboard3-0.vercel.app/" class="btn btn-primary" target="_blank">Live Site</a>
-                            <a id="git" href="https://github.com/JefthaNizaam01/Keyboard3.0" class="btn btn-primary" target="_blank">GitHub</a>
+                            <h5 class="card-title">Full-Stack E-Commerce Store</h5>
+                            <p class="card-text">Developed a full-stack e-commerce platform with seamless shopping, user authentication, and an intuitive front-end design.</p>
+                            <a id="live" href="https://timeless-8f9ab.web.app/" class="btn btn-primary" target="_blank">Live Site</a>
+                            <a id="git" href="https://github.com/JefthaNizaam01/Capstone" class="btn btn-primary" target="_blank">GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -18,7 +18,7 @@
                     <div class="card">
                         <img id="shadow" src="https://jefthanizaam01.github.io/favoriteimages/images/Art Store .png" class="card-img-top" alt="Art Store">
                         <div class="card-body" loading="lazy">
-                            <h5 class="card-title">eCommerce Store</h5>
+                            <h5 class="card-title">Art Store</h5>
                             <p class="card-text">Crafted with elegance and simplicity, where exceptional artworks from global artists await discovery by passionate art enthusiasts.</p>
                             <a id="live" href="https://artistic-store.vercel.app/" class="btn btn-primary" target="_blank">Live Site</a>
                             <a id="git" href="https://github.com/JefthaNizaam01/Artistic-Store" class="btn btn-primary" target="_blank">GitHub</a>
