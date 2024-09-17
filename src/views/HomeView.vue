@@ -11,9 +11,6 @@
       <section class="row" id="education">
         <EducationSection />
       </section>
-      <section class="row" id="skills">
-        <SkillsSection />
-      </section>
       <section class="row" id="experience">
         <WorkExperienceSection />
       </section>
@@ -32,7 +29,6 @@ import BubblesAnimation from '@/components/BubblesAnimation.vue'
 import LandingSection from '@/components/LandingSection.vue'
 import AboutSection from '@/components/AboutSection.vue'
 import EducationSection from '@/components/EducationSection.vue'
-import SkillsSection from '@/components/SkillsSection.vue'
 import WorkExperienceSection from '@/components/WorkExperienceSection.vue'
 import ProjectsSection from '@/components/ProjectsSection.vue'
 import ReachMeSection from '@/components/ReachMeSection.vue'
@@ -44,7 +40,6 @@ export default {
     LandingSection,
     AboutSection,
     EducationSection,
-    SkillsSection,
     WorkExperienceSection,
     ProjectsSection,
     ReachMeSection
