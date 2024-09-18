@@ -90,6 +90,7 @@ export default {
 }
 </script>
 <style scoped>
+
 #social-icon {
   color: black;
   font-size: 2.5em; 
