@@ -128,8 +128,34 @@ body, .card-title, .card-text {
 .btn {
     padding: 0.75rem 1.5rem;
     font-size: 1rem;
-    color:white;
+    color: white;
     background-color: black;
+    border: 2px solid transparent; /* Add a border to create space for the effect */
+    transition: all 0.3s ease; /* Smooth transition for the hover effect */
+    position: relative; /* Required for the pseudo-element */
+    overflow: hidden; /* Ensure the effect doesn't overflow */
+}
+
+.btn:hover {
+    color: black; /* Change text color on hover */
+    background-color: rgb(248, 6, 6); /* Change background color on hover */
+    border-color: black; /* Add border color on hover */
+}
+
+.btn::before {
+    content: ''; /* Empty content for the pseudo-element */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%; /* Large enough to cover the button */
+    height: 300%; /* Large enough to cover the button */
+    background: radial-gradient(circle, rgba(255,255,255,0.2), rgba(255,255,255,0) 80%); /* Gradient effect */
+    transform: translate(-50%, -50%) scale(0); /* Center and scale down initially */
+    transition: transform 0.6s ease; /* Smooth scaling transition */
+}
+
+.btn:hover::before {
+    transform: translate(-50%, -50%) scale(1); /* Scale up on hover */
 }
 
 .row-cols-md-3 > .col:nth-child(n+4) {
