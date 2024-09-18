@@ -92,11 +92,14 @@ export default {
 <style scoped>
 #social-icon {
   color: black;
-  font-size: 2em;
-  margin: 0 10px;
+  font-size: 2.5em; 
+  margin: 0 15px; 
+  transition: color 0.3s, transform 0.3s; 
 }
+
 #social-icon:hover {
-  color: black;
+  color: red; 
+  
 }
 @media (min-width: 1080px) {
 #formz {
