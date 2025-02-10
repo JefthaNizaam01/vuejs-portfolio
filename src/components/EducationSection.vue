@@ -6,7 +6,7 @@
         <ul class="timeline-list">
           <li data-aos="fade-left">
             <div class="timeline_content">
-              <span>April 2024 - Present</span>
+              <span>April 2024 - September 2024</span>
               <h4>Student at Life Choices Academy</h4>
               <p>
                 I am currently enrolled as a student at Life Choices Academy to become a full stack developer and I am learning a lot. The environment encourages growth and development not only when it comes to learning how to code but also personal development.
