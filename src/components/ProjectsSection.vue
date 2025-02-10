@@ -31,13 +31,13 @@
                 </div>
                 <div class="col" data-aos="fade-up">
                     <div class="card">
-                        <img img id="shadow" src="https://jefthanizaam01.github.io/favoriteimages/images/cube2.png" class="card-img-top" alt="cube" loading="lazy">
+                        <img img id="shadow" src="https://jefthanizaam01.github.io/favoriteimages/images/realhangman.png" class="card-img-top" alt="cube" loading="lazy">
                         <div class="card-body">
-                            <h5 class="card-title">Flex Cubes</h5>
-                            <p class="card-text">Building Flex Cubes with creativity and skill using the very famous flexbox, bending possibilities into shape.</p>
+                            <h5 class="card-title">Hangman Game</h5>
+                            <p class="card-text">Hangman game built with Python Flask, featuring a dynamic word system and an interactive UI.</p>
                             <div class="btn-container">
-                                <a href="https://flexbox-cubes.vercel.app/" class="btn btn-dark" target="_blank">Live Site</a>
-                                <a href="https://github.com/JefthaNizaam01/Flexbox-Cubes" class="btn btn-dark" target="_blank">GitHub</a>
+                                <a href="https://hangman-4.onrender.com/" class="btn btn-dark" target="_blank">Live Site</a>
+                                <a href="https://github.com/JefthaNizaam01/Hangman" class="btn btn-dark" target="_blank">GitHub</a>
                             </div>
                         </div>
                     </div>
