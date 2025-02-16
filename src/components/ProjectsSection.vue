@@ -44,26 +44,26 @@
                 </div>
                 <div class="col" data-aos="fade-up">
                     <div class="card">
-                        <img img id="shadow" src="https://jefthanizaam01.github.io/favoriteimages/images/tributemandela.png" class="card-img-top" alt="tribute" loading="lazy">
+                        <img img id="shadow" src="https://jefthanizaam01.github.io/favoriteimages/images/wordpress website.png" class="card-img-top" alt="tribute" loading="lazy">
                         <div class="card-body">
-                            <h5 class="card-title">Nelson Mandela's Tribute Page</h5>
-                            <p class="card-text">A tribute page honoring Nelson Mandela's enduring legacy, celebrating his remarkable life and contributions to humanity.</p>
+                            <h5 class="card-title">Inspired Living: Timeless Modern Architecture</h5>
+                            <p class="card-text">Created in WordPress, Inspired Living offers custom-designed homes that blend contemporary style with lasting elegance.</p>
                             <div class="btn-container">
-                                <a href="https://tribute-page-five-ecru.vercel.app/" class="btn btn-dark" target="_blank">Live Site</a>
-                                <a href="https://github.com/JefthaNizaam01/TributePage" class="btn btn-dark" target="_blank">GitHub</a>
+                                <a href="https://live-nizaamwebsite.pantheonsite.io/" class="btn btn-dark" target="_blank">Live Site</a>
+                                <a href="https://dev-nizaamwebsite.pantheonsite.io/" class="btn btn-dark" target="_blank">GitHub</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col" data-aos="fade-up">
                     <div class="card">
-                        <img img id="shadow" src="https://jefthanizaam01.github.io/favoriteimages/images/calculator.png" class="card-img-top" alt="calculator" loading="lazy">
+                        <img img id="shadow" src="https://jefthanizaam01.github.io/favoriteimages/images/seize11.png" class="card-img-top" alt="calculator" loading="lazy">
                         <div class="card-body">
-                            <h5 class="card-title">Calculator</h5>
-                            <p class="card-text">It's a static calculator interface based on a 80s theme created with HTML and CSS to provide a retro-inspired experience. </p>
+                            <h5 class="card-title">Vision: Seize the Moment</h5>
+                            <p class="card-text">My vision is to empower individuals and businesses to reach their full potential through innovative digital experiences.</p>
                             <div class="btn-container">
-                                <a href="https://calculator-theta-weld.vercel.app/" class="btn btn-dark" target="_blank">Live Site</a>
-                                <a href="https://github.com/JefthaNizaam01/calculator" class="btn btn-dark" target="_blank">GitHub</a>
+                                <a href="https://live-njdevs.pantheonsite.io/" class="btn btn-dark" target="_blank">Live Site</a>
+                                <a href="https://test-njdevs.pantheonsite.io/" class="btn btn-dark" target="_blank">GitHub</a>
                             </div>
                         </div>
                     </div>
