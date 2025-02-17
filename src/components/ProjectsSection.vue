@@ -49,7 +49,7 @@
                             <h5 class="card-title">Inspired Living: Timeless Modern Architecture</h5>
                             <p class="card-text">Created in WordPress, Inspired Living offers custom-designed homes that blend contemporary style with lasting elegance.</p>
                             <div class="btn-container">
-                                <a href="https://live-nizaamwebsite.pantheonsite.io/" class="btn btn-dark" target="_blank">Live Site</a>
+                                <a href="https://test-nizaamwebsite.pantheonsite.io/" class="btn btn-dark" target="_blank">Live Site</a>
                                 <a href="https://dev-nizaamwebsite.pantheonsite.io/" class="btn btn-dark" target="_blank">GitHub</a>
                             </div>
                         </div>
@@ -70,13 +70,13 @@
                 </div>
                 <div class="col" data-aos="fade-up">
                     <div class="card">
-                        <img img id="shadow" src="https://jefthanizaam01.github.io/favoriteimages/images/surveyform.png" class="card-img-top" alt="survey" loading="lazy">
+                        <img img id="shadow" src="https://jefthanizaam01.github.io/favoriteimages/images/outdoor.png" class="card-img-top" alt="survey" loading="lazy">
                         <div class="card-body">
-                            <h5 class="card-title">SurveyForm</h5>
-                            <p class="card-text">I built a survey form to gather valuable feedback from users. It helps me understand their opinions and preferences better.</p>
+                            <h5 class="card-title">Outdoor Adventure</h5>
+                            <p class="card-text">Optimized SEO-friendly WordPress build for an outdoor adventure brand.</p>
                             <div class="btn-container">
-                                <a href="https://survey-form-green-five.vercel.app/" class="btn btn-secondary" target="_blank">Live Site</a>
-                                <a href="https://github.com/JefthaNizaam01/SurveyForm" class="btn btn-secondary" target="_blank">GitHub</a>
+                                <a href="https://test-seo-nizaamjeftha.pantheonsite.io/" class="btn btn-secondary" target="_blank">Live Site</a>
+                                <a href="https://dev-seo-nizaamjeftha.pantheonsite.io/" class="btn btn-secondary" target="_blank">GitHub</a>
                             </div>
                         </div>
                     </div>
