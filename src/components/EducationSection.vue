@@ -9,7 +9,7 @@
               <span>April 2024 - September 2024</span>
               <h4>Student at Life Choices Academy</h4>
               <p>
-                I am currently enrolled as a student at Life Choices Academy to become a full stack developer and I am learning a lot. The environment encourages growth and development not only when it comes to learning how to code but also personal development.
+                I was enrolled as a student at Life Choices Academy to become a full-stack developer and I learned a lot. The environment encouraged growth and development, not only in coding but also in personal development.
               </p>
             </div>
           </li>
