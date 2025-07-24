@@ -49,7 +49,7 @@
                             <h5 class="card-title">Inspired Living: Timeless Modern Architecture</h5>
                             <p class="card-text">Created in WordPress, Inspired Living offers custom-designed homes that blend contemporary style with lasting elegance.</p>
                             <div class="btn-container">
-                                <a href="https://test-nizaamwebsite.pantheonsite.io/" class="btn btn-dark" target="_blank">Live Site</a>
+                                <a href="https://dev-nizaamwebsite.pantheonsite.io/" class="btn btn-dark" target="_blank">Live Site</a>
                                 <a href="https://dev-nizaamwebsite.pantheonsite.io/" class="btn btn-dark" target="_blank">GitHub</a>
                             </div>
                         </div>
