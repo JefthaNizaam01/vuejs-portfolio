@@ -13,7 +13,7 @@
         <div class="col" data-aos="fade-left">
           <div class="name">
             <h1>Hi, It's <span>Nizaam Jeftha</span></h1>
-            <h3 id="dev" class="developer">I'm <span>{{ title }}</span></h3>
+            <h3 id="dev" class="developer">I'm <span>a Full Stack Developer</span></h3>
           </div>
         </div>
       </div>

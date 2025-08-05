@@ -4,9 +4,17 @@
       <h2 class="display-2 text-center" id="wrk" data-aos="fade-down">Work Experience</h2>
       <div class="col-xl-12">
         <ul class="timeline-list">
+          <li data-aos="fade-right">
+            <div class="timeline_content">
+              <span>April 2025 - July 2025</span>
+              <h4>Junior Software Engineer</h4>
+              <h5>AllAboutApps</h5>
+              <p>At AllAbout Apps, I worked on mobile apps and websites using Next.js, Sanity CMS, PostgreSQL, Flutter and React. This role helped me broaden my skills in full-stack development, mobile frameworks and database management.</p>
+            </div>
+          </li>
           <li data-aos="fade-left">
             <div class="timeline_content">
-              <span>September 2024 - Present</span>
+              <span>September 2024 - February 2025</span>
               <h4>Software Developer Intern</h4>
               <h5>LC Studio</h5>
               <p>At LC Studio, I work as a software developer intern, contributing to various frontend and backend projects. I have gained experience in modern web development technologies, collaborating with teams to build scalable applications and enhance user experience.</p>
@@ -45,15 +53,15 @@ export default {
 .timeline_content span,
 .timeline_content h4,
 .timeline_content p {
-font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 h2#wrk {
-margin-top: 150px;
-margin-bottom: 40px; 
+  margin-top: 150px;
+  margin-bottom: 40px;
 }
 
 ul.timeline-list li:first-child {
-margin-top: 20px;
+  margin-top: 20px;
 }
 @media (max-width: 720px) {
   #experience {
@@ -72,7 +80,6 @@ margin-top: 20px;
   .timeline_content h4,
   .timeline_content p {
     text-align: center;
-    
   }
   ul.timeline-list:before {
     display: none;
